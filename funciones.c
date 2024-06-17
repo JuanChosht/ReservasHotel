@@ -13,8 +13,8 @@ void buscarPorTamano(int *numHabitacion,char habitaciones[][3][40],double precio
         {
             printf("%s\t\t%s\t\t%s\t\t%lf\n",habitaciones[i][0],habitaciones[i][1],habitaciones[i][2],precios[i]);
         }
-        
     }
-    
+    printf("Elija la habitacion que desea reservar: ");
+    scanf("%d",numHabitacion); 
 }
 
